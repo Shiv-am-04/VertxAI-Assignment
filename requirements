@@ -1,1 +1,16 @@
+langchain
+python-dotenv
+langchain_community
+pypdf
+langchain-text-splitters
+langchain_huggingface
+langchain_cli
+langchain_ollama
+langchain-google-genai
+faiss-cpu
+langchain_chroma
+langchain_groq
+google-generativeai
+pdf2image
+python-pptx
 jq
