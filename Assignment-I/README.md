@@ -16,9 +16,11 @@
        2. The llm with retriever provided the response as the list of investor that is most similar to the start-up in this way we reduce the corpus of data
                      which is now ready to directly feed into the gemini model for matching score.
 
-***Finally I used gemini model and provide the start-up and matched investor details to it. After the model analyze the details it provide the match score and ranks them.***
+***Finally I used gemini model and provide the start-up detail and the retrieved investor details to it. After the model analyze the details it provide the match score and ranks them.***
 
 *Improvements*
 
-1. Using a more better premium vector databases like AstraDB,Pinecone which can store more embeddings with higher dimension making the
+1. Using a more better premium vector databases like AstraDB, Pinecone which can provide more storage where we can store higher dimension embeddings making the
    retrieved document more accurate.
+
+2. Using a more better model with retriever like GPT,Grok.
